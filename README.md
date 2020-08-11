@@ -1,4 +1,3 @@
-![](https://www.notion.so/190b1245c7944abd88bbeab3b064d074#dcb2bf4251104a29acb1a0d8ae2e9a94)
 - **基础记录**
     - **[addEventListener](https://developer.mozilla.org/zh-CN/docs/Web/API/EventTarget/addEventListener)监听器的所有[触发事件](https://developer.mozilla.org/zh-CN/docs/Web/Events)、 [querySelector](https://developer.mozilla.org/zh-CN/docs/Web/API/Document/querySelector)**
     - [**hasOwnProperty**](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty)只拿自己定义的属性，忽略掉那些从原型链上继承到的属性
@@ -12,15 +11,11 @@
     - Element元素宽度
         - [Element.clientWidth](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/clientWidth) 包括内边距(padding)、但不包括边框(border)、外边距 margin 和竖直方向滚动条(scrollbar)（如果存在的话）
         - [Element.scrollWidth](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/scrollWidth) 同上之外，它还可以包括伪元素的宽度，例如::before或::after。 如果元素的内容可以适合而不需要水平滚动条，则其scrollWidth等于clientWidth
-
-            ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f2670357-e498-4d9d-aa8c-24938d3d023f/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f2670357-e498-4d9d-aa8c-24938d3d023f/Untitled.png)
-
-            clientWidth和scrollWidth共用此图
+![image](https://user-images.githubusercontent.com/6947480/89880587-feb60180-dbf6-11ea-8c68-5a1fbbc03467.png)
+clientWidth和scrollWidth共用此图
 
         - [Element.offsetWidth](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLElement/offsetWidth) 包含内边距(padding)、边框(border)、竖直方向滚动条(scrollbar)（如果存在的话）
-
-            ![https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e95c79b9-28e1-4822-9011-7dfb69d2685e/Untitled.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e95c79b9-28e1-4822-9011-7dfb69d2685e/Untitled.png)
-
+![image](https://user-images.githubusercontent.com/6947480/89880632-0aa1c380-dbf7-11ea-9242-3686168b164d.png)
 
         - [Window.innerWidth](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/innerWidth) 窗口的内部宽度，包含垂直滚动条
 
